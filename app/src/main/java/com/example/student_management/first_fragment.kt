@@ -41,8 +41,8 @@ class first_fragment : AppCompatActivity(), CoroutineScope {
             launch {
                 val strName: String = edt_name.text.toString()
                 val strGrade: String = edt_grade.text.toString()
-                val strEmail: String = edt_name.text.toString()
-                val strPhone: String = edt_grade.text.toString()
+                val strEmail: String = edt_email.text.toString()
+                val strPhone: String = edt_phone.text.toString()
                 val strAddress: String = edt_address.text.toString()
 
                 if (strName =="" && strGrade == "" ) {
